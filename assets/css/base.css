@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* End Reset Css */
 
 :root {
     --primary: #e52f37;
@@ -19,14 +20,11 @@ html {
 
 a {
     text-decoration: none;
+    display: inline-block;
 }
 
 ul {
     list-style: none;
-}
-
-img {
-    width: 100%;
 }
 
 h1,
@@ -68,7 +66,74 @@ p {
     border: 1px solid var(--primary);
 }
 
+.btn-white {
+    font-size: 16px;
+    padding: 14px 20px;
+    background-color: var(--white);
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.btn-white:hover {
+    box-shadow: 0px 4px 10px 0 rgb(0 0 0 / 50%);
+    color: #e52f37!important;
+    background: #f9f9f9;
+}
+
+.btn-white-border {
+    background: transparent;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: 1px solid #fff;
+    margin: 10px 0 0 20px;
+    padding: 14px 26px;
+    box-shadow: 0px 8px 40px 0 rgb(0 0 0 / 37%);
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-white-border:hover {
+    box-shadow: 0px 4px 10px 0 rgb(0 0 0 / 50%);
+    color: #e52f37!important;
+    background: #f9f9f9;
+}
+
+.btn.box-shadow {
+    box-shadow: 0px 5px 20px 0 rgb(0 0 0 / 27%);
+}
+
 .text-center {
     text-align: center;
 }
 
+.section-grey {
+    background: #f1faff;
+    padding: 90px 0 100px 0;
+}
+
+.section-white {
+    background: #fff;
+    padding: 90px 0 100px 0;
+}
+
+.section-title {
+    font-size: 3.8rem;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 1.8rem;
+}
+
+
+.image-shadow {
+    border-radius: 8px 8px;
+    box-shadow: 10px 12px 40px rgb(0 0 0 / 20%);
+}
+
+.white-text {
+    color: var(--white);
+}
+
+.width-100 {
+    width: 100%;
+}

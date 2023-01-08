@@ -16,6 +16,7 @@
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col-1 {
@@ -24,6 +25,11 @@
 
 .col-2 {
     width: 16.66%;
+}
+
+
+.offset-md-2 {
+    margin-left: 16.66%;
 }
 
 .col-3 {
